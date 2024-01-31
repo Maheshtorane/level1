@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+}
+#nav-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-part1 h3{
+    font-size: 17px;
+    padding: 5px 10px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav i{
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav-part2 h1{
+    font-weight: 5oo;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+#btn2{
+    color: #fff;
+    border: none;
+    background-color: orangered;
+}
+
+#main>h1{
+   
+    font-size: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    /*jab div ke background img laga rahe hai to background img cover
+    and jab aap img tag ko laga rahe hai to object-fit cover*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+#dot{
+    height: 5px;
+    width: 5px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+}
+
+#icons{
+    font-size: 25px;
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+}
+
+#achivement{
+    position: absolute;
+    bottom: 5%;
+    right: 4.5%;
+    font-size: 14px;
+}
